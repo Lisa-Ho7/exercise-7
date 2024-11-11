@@ -9,65 +9,54 @@
         line-height: 1.6;
         margin: 0;
         padding: 0;
-        background-color: beige;
+        background-color: #f4f4f4;
       }
-
-      .central-div {
-        width: 100%; /* Full width */
-        max-width: 1200px; /* Limit to a max width */
-        margin: 0 auto; /* Center the container */
-        position: relative; /* Allows absolute positioning of inner divs */
-        background-color: beige;
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
         padding: 20px;
+        background-color: beige;
+        display: flex;
+       
+   
       }
-
-      .left-column,
-      .right-column {
-        position: absolute; /* Position them inside the central div */
-        top: 0;
-        bottom: 0;
-      }
-
       .left-column {
-        width: 35%; /* Left column width */
-        left: 0; /* Position to the left */
+        width: 55%; 
+        
+    
       }
-
       .right-column {
-        width: 65%; /* Right column width */
-        right: -50; /* Position to the right */
-        padding-left: 20px; /* Add some padding for spacing */
+        width: 70%;
+   
+     
+    
       }
-
       h1, h2, h3 {
         color: #2c3e50;
         font-family: 'Merriweather', serif;
       }
-
       ul {
         list-style-type: circle;
         padding-left: 20px;
       }
-
       .tip {
         padding: 10px;
         margin-top: 20px;
       }
-
       .step {
         margin-bottom: 20px;
       }
-
       .recipe-image {
         width: 100%;
         height: auto;
       }
-
+      
+   
     </style>
   </head>
   <body>
-    <div class="central-div">
-      <!-- Left column -->
+    <div class="container">
       <div class="left-column">
         <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
         <h2><strong>By:</strong> Martha Rose Shulman</h2>
@@ -86,8 +75,7 @@
           <li>1 teaspoon sesame oil</li>
         </ul>
       </div>
-
-      <!-- Right column -->
+        
       <div class="right-column">
         <img src="recipe-photo-Enhanced-SR.jpg" alt="A plate with Spinach, Tofu, and sesame stir-fry" class="recipe-image">
 
